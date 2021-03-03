@@ -3,6 +3,10 @@
   box-sizing:border-box;  
 }
 
+main a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -23,6 +27,10 @@ body {
 
 header {
   background-color: #F9F0EA;
+}
+
+.headerbackground {
+  width: 100%;
 }
 
 h1 {
@@ -104,11 +112,29 @@ header nav {
 
   .navbar-links {
     display: none;
+    width: 100%;
   }
 
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: 0.5em 1em;
+  }
+
+  .navbar-links.active {
+    display: flex;
   }
 }
 
@@ -129,8 +155,44 @@ h2 {
   color: #2d2a24;
 }
 
+.readytoship {
+  width:50%;
+}
+
+.liveplants {
+  width: 50%;
+}
+
+.snake {
+  width:50%;
+}
+
+.collections li {
+    list-style: none;
+}
+
+.bestsellers li {
+  list-style: none;
+}
+
+.benefits li {
+  list-style: none;
+}
+
 .invite {
   background-color: #f8f8f7;
+}
+
+.subscribe {
+  border: 2px solid;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer li {
+  list-style: none;
 }
 
 /* 

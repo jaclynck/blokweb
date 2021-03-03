@@ -10,7 +10,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. Bron 2: input type select https://www.w3schools.com/tags/att_select_form.asp 
 3. Bron 3: radio buttons https://www.w3schools.com/html/html_forms.asp
 4. Bron 4: font https://fonts.adobe.com/fonts/tenez?mv=affiliate&mv2=red 
-5. Bron 5: 
+5. Bron 5: responsive navbar https://www.youtube.com/watch?v=At4B7A4GOPg&list=PLZlA0Gpn_vH8mpXIUHjWoMAAgoCEinL0R&index=2
+6. Bron 6:
 
 
 
@@ -32,18 +33,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+-dit ging goed-
+Mijn HTML heb ik aangevuld. De footer heeft nu meer elementen die ik voorheen over het hoofd had gezien. Ik heb de feedback van de vorige sessie erin verwerkt.
 
+-dit was lastig-
+Ik wist niet waar ik moest beginnen met CSS, dus ik hoop dat dit een beetje oké is. 
+
+Het responsive menu moet ik nog bijschaven, want als het scherm smal is en je klikt op het hamburgermenuutje dan staan de links naast elkaar en als je scherm breed is dan staan ze juist onder elkaar. Dit moet juist andersom.
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+Ik heb een klein begin aan CSS gemaakt. Ik heb een responsive hamburgermenu uitgeprobeerd. 
 
 
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 -dit ging goed-
-Mijn HTML tot nu toe is netjes en goed leesbaar. Ik heb verschillende elementen in mijn code staan, zoals lists, input forms en select forms. Ik heb de bronnen van hoe ik deze correct moest coderen opgeslagen. 
+Mijn HTML tot nu toe is netjes en goed leesbaar. Ik heb verschillende elementen in mijn code staan, zoals lists, input forms en select forms. Ik heb de bronnen van hoe ik deze correct moest coderen opgeslagen in de bronnenlijst. 
 
 -dit was lastig-
-Ik vind het spannend om mijn werk te laten zien aan anderen en ik ben bang dat ik niet ver genoeg ben gekomen. Ik weet niet waar ik de < main > moet plaatsen.
+Ik vind het spannend om mijn werk te laten zien aan anderen en ik ben bang dat ik niet ver genoeg ben gekomen. Ik weet niet waar ik de < main > moet plaatsen en waar ik zou moeten beginnen met CSS. 
 
 **Screenshot(s):**
 
