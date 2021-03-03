@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
+	<link rel="stylesheet" href="https://use.typekit.net/jud4zsh.css">
+
 	<title>The Sill</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
@@ -14,10 +16,19 @@
 
 	<body>
 		<header>
+			<p class="infobar">Shop our new plant bundles expertly paired for your space</p>
+
 			<h1><a href="index.html" target="_self">The Sill</a></h1>
 				
-				<nav>
-					<ul>
+				<nav class="navbar">
+
+					<a href="#" class="toggle-button">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</a>
+
+					<ul class="navbar-links">
 						<li>
 							<a href="#">Shop</a>
 						</li>
@@ -38,7 +49,7 @@
 							<a href="#">Log In</a>
 						</li>
 						<li>
-							<a href="#">Cart</a>
+							<a href="#">Cart (0)</a>
 						</li>
 					</ul>
 				</nav>
@@ -46,14 +57,14 @@
 			<section>
 				<h2>Your Lushest Season Yet</h2>
 				<p>Grow your indoor jungle with our new bundles</p>
-				<a href="#">Shop Now</a>
+				<a class="cta" href="#">Shop Now</a>
 			</section>
 
 			<img src="images/thesillbackground.jpg" alt="two potted plants balanced on a hand" width="100">
 		</header>
 
 		<main>
-			<section>
+			<section class="collections">
 				<h2>Shop the Collections</h2>
 				<ul>
 					<li>
@@ -68,17 +79,41 @@
 				</ul>
 			</section>
 
-			<section>
+			<section class="bestsellers">
 				<h2>Our Best Sellers</h2>
 				<ul>
-					<li><a href="product.html" target="_self">Succulent Assortment</a></li>
-					<li><a href="product.html" target="_self">Snake Plant Laurentii</a></li>
-					<li><a href="product.html" target="_self">Pink Anthurium</a></li>
-					<li><a href="product.html" target="_self">The Home Office Bundle</a></li>
+					<li>
+						<a href="product.html" target="_self">
+							<h4>The Pet-Friendly Bundle</h4>
+								<p>$54</p>
+								<p>one size</p>
+						</a>
+					</li>
+					<li>
+						<a href="product.html" target="_self">
+							<h4>Snake Plant Laurentii</h4>
+							<p>$21-$38</p>
+							<p>more options</p>
+						</a>
+					</li>
+					<li>
+						<a href="product.html" target="_self">
+							<h4>The Home Office Bundle</h4>
+							<p>$55</p>
+							<p>one size</p>
+						</a>
+					</li>
+					<li>
+						<a href="product.html" target="_self">
+							<h4>Pink Anthurium</h4>
+							<p>$21-$61</p>
+							<p>more options</p>
+						</a>
+					</li>
 				</ul>
 			</section>
 
-			<section>
+			<section class="benefits">
 				<ul>
 					<li>
 						<h3>Beautiful Plants</h3>
@@ -98,7 +133,7 @@
 				</ul>
 			</section>
 
-			<section>
+			<section class="invite">
 				<h2>Invite a Friend, Take $10 Off</h2>
 				<p>Once a friend makes their first $50 purchase with your personal referral link, you’ll get $10 off your next online order. Sign up to get your link here!</p>
 				
@@ -108,7 +143,7 @@
 
 					<label for="email">Email</label>
 					<input type="email" name="email" id="email" placeholder="Your email address" required>
-					<button type="submit">Spread the Word</button>
+					<button type="submit" class="cta">Spread the Word</button>
 				</form>
 			</section>
 
@@ -118,7 +153,7 @@
 		</main>
 		
 		<footer>
-			<section>
+			<section class="firstrow">
 				<ul>
 					<li>
 						<a href="#">About Us</a>
@@ -138,7 +173,7 @@
 				</ul>
 			</section>
 		
-			<section>
+			<section class="secondrow">
 				<ul>
 					<li>
 						<a href="#">Membership</a>
@@ -161,7 +196,7 @@
 			<section>
 				<h2>Get the dirt.</h2>
 		
-				<form>
+				<form class="subscribe">
 					<label for="email">Email</label>
 					<input type="email" name="email" id="email" placeholder="Enter your email here" required>
 		
@@ -171,9 +206,34 @@
 		
 			<section>
 				<a href="https://www.youtube.com/channel/UCuxSexJRWV99gVFffJ-plig" target="_blank">
-					<img src="images/" alt="youtube logo">
+					<img src="images/" alt="YouTube logo">
 				</a>
 			</section>
+
+			<section class="socialmedia">
+				<img src="images/chat.png" alt="speech bubble" id="chat">
+			</section>
+
+			<section>
+				<p>Copyright 2021 The Sill, Inc.</p>
+				
+				<ul>
+					<li>
+						<a href="#">Terms of Use</a>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">Accessibility Statement</a>
+					</li>
+					<li>
+						<a href="#">Do Not Sell My Information</a>
+					</li>
+				</ul>
+				
+			</section>
+
 		</footer>
 		<script src="scripts/script.js"></script>
 	</body>

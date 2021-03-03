@@ -6,9 +6,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1: links, inputs & buttons- https://www.youtube.com/watch?v=bFvjE4ZRtSE&list=PLZlA0Gpn_vH9xx-RRVNG187ETT2ekWFsq&index=6 
-2. -bron 2: input type select- https://www.w3schools.com/tags/att_select_form.asp 
-3. -bron 3: radio buttons- https://www.w3schools.com/html/html_forms.asp
+1. Bron 1: links, inputs & buttons https://www.youtube.com/watch?v=bFvjE4ZRtSE&list=PLZlA0Gpn_vH9xx-RRVNG187ETT2ekWFsq&index=6 
+2. Bron 2: input type select https://www.w3schools.com/tags/att_select_form.asp 
+3. Bron 3: radio buttons https://www.w3schools.com/html/html_forms.asp
+4. Bron 4: font https://fonts.adobe.com/fonts/tenez?mv=affiliate&mv2=red 
+5. Bron 5: 
 
 
 
@@ -37,27 +39,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
+-dit ging goed-
+Mijn HTML tot nu toe is netjes en goed leesbaar. Ik heb verschillende elementen in mijn code staan, zoals lists, input forms en select forms. Ik heb de bronnen van hoe ik deze correct moest coderen opgeslagen. 
 
--dit ging goed & dit was lastig-
+-dit was lastig-
+Ik vind het spannend om mijn werk te laten zien aan anderen en ik ben bang dat ik niet ver genoeg ben gekomen. Ik weet niet waar ik de < main > moet plaatsen.
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
+Ik heb de structuur van de homepagina gemaakt en een productpagina. Ik moet nog beginnen aan de CSS. 
 
 
 ## Breakdownschets (week 1)
