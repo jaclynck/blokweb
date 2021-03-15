@@ -1,51 +1,86 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing: border-box;  
 }
 
-main a {
+html {
+  scroll-behavior: smooth;;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
   text-decoration: none;
+  color: #2d2a24;
 }
 
 body {
   margin: 0;
   padding: 0;
 
-  font-family: tenez, helvetica, roboto, arial, sans-serif;
+  font-family: tenez, helvetica, arial, sans-serif;
   color: #2d2a24;
 }
+
+ul {
+  padding 0;
+  list-style: none;
+}
+
+/* Het eerste wat een bezoeker ziet: menu, logo, banner en cta */
 
 .infobar {
   width: 100%;
   top: 0;
+  bottom: 0;
   padding: 0.3em 1em;
   text-align: center;
   display: inline-block;
   background-color: #00ab84;
   color: white;
+  text-decoration: none;
 }
 
 header {
   background-color: #F9F0EA;
 }
 
-.headerbackground {
-  width: 100%;
+header section {
+  margin: 1em;
 }
+
+.bannerimage {
+  width: 100%;
+  top: 0;
+}
+
+/*The Sill logo*/
 
 h1 {
   font-family: tenez, helvetica, roboto, arial, sans-serif;
-  font-weight: 900;
+  font-weight: bold;
   font-style: normal;
   color: #2d2a24;
   text-decoration: underline;
 
   font-size: 2em;
   margin: 0.5em;
+  text-align: center;
 }
 
 h1 a {
   color: #2d2a24;
+}
+
+nav p a {
+  text-decoration: none;
+  color: #2d2a24;
+  top: 0;
+  text-align: end;
 }
 
 header nav {
@@ -59,6 +94,18 @@ header nav {
   }
 }
 
+nav ul li 
+  {
+    list-style: none;
+    margin: 1em;
+  }
+
+nav ul li a {
+  text-decoration: none;
+  color: #2d2a24;
+}
+
+/*
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -66,24 +113,24 @@ header nav {
   color: #2d2a24;
 }
 
-.navbar-links ul {
+.navlinks ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.navbar-links li {
+.navlinks li {
   list-style: none;
 }
 
-.navbar-links li a {
+.navlinks li a {
   text-decoration: none;
   color: #2d2a24;
   padding: 1em;
   display: block;
 }
 
-.navbar-links li:hover {
+.navlinks li:hover {
   background-color: #e6f6f3;
 }
 
@@ -110,7 +157,7 @@ header nav {
     display: flex;
   }
 
-  .navbar-links {
+  .navlinks {
     display: none;
     width: 100%;
   }
@@ -120,42 +167,61 @@ header nav {
     align-items: flex-start;
   }
 
-  .navbar-links ul {
+  .navlinks ul {
     flex-direction: column;
     width: 100%;
 
   }
-  .navbar-links li {
+  .navlinks ul li {
     text-align: center;
+    list-style: none;
   }
 
-  .navbar-links li a {
+  .navlinks li a {
     padding: 0.5em 1em;
+    text-decoration: none;
+    color: #2d2a24;
   }
 
-  .navbar-links.active {
+  .navlinks.active {
     display: flex;
   }
+}
+
+*/
+
+header section a {
+  text-decoration: none;
 }
 
 .cta {
   background-color: #00ab84;
   color: white;
   margin: 1em;
-  padding: 1em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding: 1.5em 2em;
   border-radius: 0.1em;
 }
 
+/* Main content: collections */
+
 h2 {
   font-family: tenez, helvetica, roboto, arial, sans-serif;
-  font-weight: 900;
   font-style: normal;
+  font-weight: bold;
   color: #2d2a24;
+  font-size: 3em;
 }
 
-.readytoship {
+.collections li {
+  list-style: none;
+  margin: 4em 0;
+}
+
+.collections li {
+  flex-basis: 50%;
+}
+
+.readytoship img {
   width:50%;
 }
 
@@ -165,10 +231,6 @@ h2 {
 
 .snake {
   width:50%;
-}
-
-.collections li {
-    list-style: none;
 }
 
 .bestsellers li {
@@ -183,6 +245,8 @@ h2 {
   background-color: #f8f8f7;
 }
 
+/* Footer */
+
 .subscribe {
   border: 2px solid;
 }
@@ -193,6 +257,16 @@ footer a {
 
 footer li {
   list-style: none;
+}
+
+@media (min-width: 600px) {
+  /*mobile first*/
+
+}
+
+@media (max-width: 600px) {
+  /*desktop first*/
+
 }
 
 /* 
